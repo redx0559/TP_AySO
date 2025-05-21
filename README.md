@@ -1,2 +1,3 @@
-# TP_AySO
-TP 1 ARQ Y SO 2025
+Alumno: Juan Pablo Muñoz Andrade
+División: 116
+Turno: Mañana
