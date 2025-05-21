@@ -1,0 +1,92 @@
+pwd
+ls
+sudo apt update 
+sudo install tree
+sudo apt install tree
+tree
+tree carpetas/
+cd
+cd repogit
+git clone git@github.com:redx0559/TP_AySO.git
+ssh-keygen
+ssh-agent
+ls -l
+~/.ssh/id_rsa.pub
+ls -al ~/.ssh
+ssh-add ~/.ssh/id_rsa
+mkdir $HOME/.ssh
+ssh-keygen -t rsa -b 4096 -C "mjpa0504@gmail.com"
+eval `ssh-agent -s`
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub
+ls ~/.ssh
+rm ~/.ssh/id_rsa ~/.ssh/id_rsa.pub
+rm ~/.ssh/0559 ~/.ssh/0559.pub
+vagrant ssh
+ssh-keygen -t rsa -b 4096 -C "tu-email@ejemplo.com"
+ssh-keygen -t rsa -b 4096 -C "tu-ema"
+~sso0
+j  ssh-keygen -t rsa -b 4096 -C "mjpa0504@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "mjpa0504@gmail.com"
+cat ~/.ssh/id_rsa.pub
+cd
+cd repogit
+git clone git@github.com:redx0559/TP_AySO.git
+pwd
+ls -l
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add . 
+git config --global user.email "mjpa0504@gmail.com"
+git config --global user.name "Juan Pablo Muñoz Andrade"    
+git status 
+git commit -m "ADD: agregado 1er 
+ejercicio sobre datos_usuarios.txt" 
+git status 
+git push 
+[200~ "Ryzen 5 9600x" /proc/cpuinfo | head -n1 >> datos_usuario.tx
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat << EOF > README.md
+Alumno: Juan Pablo Muñoz Andrade
+División: 116
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt 
+git add README.md datos_usuarios.txt
+git add README.md
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario" 
+git push 
+mkdir -p ~/estructura/materia1/uni{1,2,3} ~/estructura/materia2/uni{1,2,3}
+tree estructura/
+tree ~/
+tree [200~ mkdir -p ~/estructura/materia1/uni{1,2,3} ~/estructura/materia2/uni{1,2,3}
+tree ~prueba1/
+mkdir -p ~prueba1/estructura/materia1/uni{1,2,3} ~prueba1/estructura/materia2/uni{1,2,3}
+tree ~prueba1/
+nano script_dir.sh
+gitt add .
+git add .
+chmod +x script_dir.sh
+./script_dir.sh
+git add . 
+git commit -m "ADD: Añadiendo script" 
+git push 
+history -a 
